@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(grey, rgba(0, 0, 255, 0.132));
+    height: 100vh;
+    width: auto;
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    padding: 2%;
+  }
+  h1{
+    letter-spacing: 2px;
+  }
+  p{
+    letter-spacing: 1px;
+  }
+
+  header h1{
+    font-size:3.1rem;
+  }
+
+  header p{
+    font-size: 1.5rem;
+  }
+
+  main{
+    display: flex;
+    width: 98vw;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    height: auto;
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }
+
+  .project-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1%;
+    margin: 1%;
+    border: 2px solid black;
+    border-radius: 5%;
+    height: 65vh;
+  }
+
+
+  .project-1 h1{
+    margin-bottom:4%;
+  }
+  .project-1 p{
+    margin-top:1%;
+  }
+
+  .project-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid black;
+    border-radius: 5%;
+    height: 65vh;
+  }
+
+  .project-2 h1{
+    margin-bottom:4%;
+  }
+  .project-2 p{
+    margin-top:1%;
+  }
+  .project-2 a{
+    margin-top: 11%;
+  }
+
+  .project-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid black;
+    border-radius: 5%;
+    height: 65vh;
+  }
+  .project-3 h1{
+    margin-bottom:4%;
+  }
+  .project-3 a{
+    margin-top: 6%;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 3px;
+  }
